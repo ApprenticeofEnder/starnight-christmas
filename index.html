@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Merry Christmas Starnight</title>
+</head>
+
+<body>
+    <div id="SnowFall"></div>
+    <div id="content" class="holo">
+        <h1>Merry Christmas Starnight!</h1>
+        <p>I love you so much, and I wish you nothing but happiness this holiday and in the new year!</p>
+        <p>Hopefully COVID stops being a dick and we can actually meet up in 2022, but until then, I'm eager to get into
+            a year of more Apex shenanigans, more snuggles, and more together time.</p>
+        <p>-Ender</p>
+        <div class="image-frame">
+            <img src="/img/cherrisergei.jpg" />
+        </div>
+    </div>
+</body>
+<script src="/js/particles.js">
+//https://github.com/VincentGarreau/particles.js/
+</script>
+<script>
+    particlesJS("SnowFall",
+        {
+            "particles": {
+                "number": {
+                    "value": 80
+                },
+                "shape": {
+                    "type": "circle",
+                },
+                "size": {
+                    "value": 7,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": false
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 5,
+                    "direction": "bottom",
+                    "straight": false
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": false
+                    }
+                },
+                "modes": {
+                    "push": {
+                        "particles_nb": 12
+                    }
+                }
+            }
+        }
+
+
+    );
+</script>
+
+</html>
